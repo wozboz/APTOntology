@@ -172,13 +172,13 @@ def import_json_to_stix(file):
 
 def onto_find(json_data):
 
-    onto = get_ontology("file:///Users/psl/PycharmProjects/APTOntology/venv/APTOntology_v1.0.owl").load()
+    onto = get_ontology("file://APTOntology_v1.0.owl").load()
 
     if json_data.type.lower() == "malware":
         for result in onto.search(subclass_of = onto.Attack):
             try:
                 if result.hasMalwareName[0].lower() == json_data.name.lower():
-                    print(result)
+                    print(str(result)[17:])
                     print(result.hasMalwareName[0])
                     print(result.hasMalwareHash)
                     print(result.hasToolName)
@@ -230,9 +230,16 @@ def import_to_onto(import_json_data):
         ##TODO Create new Class
 
     if command.lower() == "e":
-        print(onto.search(subclass_of = onto.Attack))
-        class_name = input("Input existing Class Name:")
+        print("Existing Classes:")
+        for item in onto.search(subclass_of = onto.Attack):
+            print(str(item)[17:])
+
+        class_name = input("Input Class Name:")
         result = onto.search_one(subclass_of = onto.Attack, iri = "*" + class_name + "*")
+
+    if result == None:
+        print("Not a valid Classname")
+        return
 
     if import_json_data.type.lower() == "tool":
         print(result.hasToolName)
@@ -264,7 +271,10 @@ def main():
             import_to_onto(import_json_data)
                 #Execute import of STIX (=argv[1]) in Ontology
         elif command.lower() == "exit":
-                break
+            command = input("Do you want to save changes made to the Ontology? Y or N")
+            if command.lower() == "y":
+                onto.save()
+            break
         else:
             continue
 

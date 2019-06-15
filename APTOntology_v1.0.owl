@@ -1,0 +1,1338 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/philip/ontologies/2019/3/APT_Ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/philip/ontologies/2019/3/APT_Ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/philip/ontologies/2019/3/APT_Ontology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An Ontology describing APT Attacks.</Literal>
+    </Annotation>
+    <Declaration>
+        <ObjectProperty IRI="#isCreating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndicating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAttackStageOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Socket_Ext"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttackStage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AS7_Extract_Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hacktivist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpenID"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCreatorOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observed_Data"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isExecuting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AS5_C&amp;C_Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SDO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#APT1_Malware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AS4_Exploitation_And_Installation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intrusion_Set"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indicator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCourseOfAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trojan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tool"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isVariantOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Individual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Report"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isResponsibleFor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autonomous_System"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCreatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAttributedTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AS1_Reconaissance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#APT1_Attack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unix_Account"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TACACS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adversarial_Behaviors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raster_Image_Ext"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCreator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LDAP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isResolvingTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBelongingTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palestine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isContaining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Threat_Actor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMalwareName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#STIX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IP_Address"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttachment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mutex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows_Process_Ext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Virus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Identity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows_PEBinary_Ext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MIME_Part_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows_Service_Ext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AS8_Maintain_Access_&amp;_Cover_Tracks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criminal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMitigatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isImpersonating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCommunicatingWith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows_Local"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ICMP_Ext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#X509_Certificate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MAC_Addr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Directory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMitigating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attacker_Means"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#France"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PDF_Ext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPv6_Addr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows_Registry_Key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TTP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTargetedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows_Domain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasChild"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasToolName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AS3_Delivery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email_Message"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campaign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTTP_Request_Ext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course_of_Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NIS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RADIUS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nationstate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCP_Ext"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email_Addr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#File"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Twitter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facebook"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isImpersonatedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#USA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iran"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skype"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTargeting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#America"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C&amp;C_Server"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIPAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Germany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AS2_Weaponization"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isContainedIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attack_Pattern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rootkit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Traffic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isExecutedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMalwareHash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Address"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIncluding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AS6_Establish_Foothold_&amp;_Internal_Reconaissance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#APT1_Attack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Israel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attack_Stages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIndicatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAttachedTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPv4_Addr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vulnerability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Russia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User-Account"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Archive_Ext"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#APT1_Attack"/>
+        <ObjectIntersectionOf>
+            <DataHasValue>
+                <DataProperty IRI="#hasMalwareName"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PoisonIvy</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#hasToolName"/>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lslsass</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#APT1_Attack"/>
+        <Class IRI="#Attack"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#APT1_Malware"/>
+        <Class IRI="#Malware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AS1_Reconaissance"/>
+        <Class IRI="#Attack_Stages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AS2_Weaponization"/>
+        <Class IRI="#Attack_Stages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AS3_Delivery"/>
+        <Class IRI="#Attack_Stages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AS4_Exploitation_And_Installation"/>
+        <Class IRI="#Attack_Stages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AS7_Extract_Information"/>
+        <Class IRI="#Attack_Stages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Address"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adversarial_Behaviors"/>
+        <Class IRI="#SDO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <Class IRI="#Nationstate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America"/>
+        <Class IRI="#Nationstate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Archive_Ext"/>
+        <Class IRI="#File"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Nationstate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attack"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isUsing"/>
+            <Class IRI="#Malware"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attack_Pattern"/>
+        <Class IRI="#TTP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australia"/>
+        <Class IRI="#Nationstate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autonomous_System"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Campaign"/>
+        <Class IRI="#Adversarial_Behaviors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course_of_Action"/>
+        <Class IRI="#SDO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criminal"/>
+        <Class IRI="#Threat_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyber_Observable_Objects"/>
+        <Class IRI="#STIX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Directory"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domain_Name"/>
+        <Class IRI="#Email_Addr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email_Addr"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email_Message"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europe"/>
+        <Class IRI="#Nationstate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Facebook"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#File"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#France"/>
+        <Class IRI="#Europe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Germany"/>
+        <Class IRI="#Europe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group"/>
+        <Class IRI="#Identity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTTP_Request_Ext"/>
+        <Class IRI="#Network_Traffic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hacktivist"/>
+        <Class IRI="#Threat_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ICMP_Ext"/>
+        <Class IRI="#Network_Traffic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IP_Address"/>
+        <Class IRI="#Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPv4_Addr"/>
+        <Class IRI="#IP_Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPv6_Addr"/>
+        <Class IRI="#IP_Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Identity"/>
+        <Class IRI="#SDO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indicator"/>
+        <Class IRI="#SDO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Individual"/>
+        <Class IRI="#Identity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrusion_Set"/>
+        <Class IRI="#Adversarial_Behaviors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iran"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Israel"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LDAP"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MAC_Addr"/>
+        <Class IRI="#Address"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MIME_Part_Type"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malware"/>
+        <Class IRI="#Attacker_Means"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malware"/>
+        <Class IRI="#TTP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mutex"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NIS"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nationstate"/>
+        <Class IRI="#Threat_Actor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Traffic"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observed_Data"/>
+        <Class IRI="#SDO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpenID"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organization"/>
+        <Class IRI="#Identity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PDF_Ext"/>
+        <Class IRI="#File"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palestine"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RADIUS"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raster_Image_Ext"/>
+        <Class IRI="#File"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Report"/>
+        <Class IRI="#SDO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rootkit"/>
+        <Class IRI="#Malware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Russia"/>
+        <Class IRI="#Europe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SDO"/>
+        <Class IRI="#STIX"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skype"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Socket_Ext"/>
+        <Class IRI="#Network_Traffic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TACACS"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCP_Ext"/>
+        <Class IRI="#Network_Traffic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TTP"/>
+        <Class IRI="#SDO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Threat_Actor"/>
+        <Class IRI="#SDO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tool"/>
+        <Class IRI="#TTP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trojan"/>
+        <Class IRI="#Malware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Twitter"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URL"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#USA"/>
+        <Class IRI="#America"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unix_Account"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User-Account"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Virus"/>
+        <Class IRI="#Malware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnerability"/>
+        <Class IRI="#SDO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows_Domain"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows_Local"/>
+        <Class IRI="#User-Account"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows_PEBinary_Ext"/>
+        <Class IRI="#File"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows_Process_Ext"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows_Registry_Key"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows_Service_Ext"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worm"/>
+        <Class IRI="#Malware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#X509_Certificate"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AS5_C&amp;C_Activity"/>
+        <Class IRI="#Attack_Stages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AS6_Establish_Foothold_&amp;_Internal_Reconaissance"/>
+        <Class IRI="#Attack_Stages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AS8_Maintain_Access_&amp;_Cover_Tracks"/>
+        <Class IRI="#Attack_Stages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C&amp;C_Server"/>
+        <Class IRI="#Attacker_Means"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AS1_Reconaissance"/>
+        <Class IRI="#AS2_Weaponization"/>
+        <Class IRI="#AS3_Delivery"/>
+        <Class IRI="#AS4_Exploitation_And_Installation"/>
+        <Class IRI="#AS7_Extract_Information"/>
+        <Class IRI="#AS5_C&amp;C_Activity"/>
+        <Class IRI="#AS6_Establish_Foothold_&amp;_Internal_Reconaissance"/>
+        <Class IRI="#AS8_Maintain_Access_&amp;_Cover_Tracks"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Address"/>
+        <Class IRI="#Artifact"/>
+        <Class IRI="#Autonomous_System"/>
+        <Class IRI="#Directory"/>
+        <Class IRI="#Domain_Name"/>
+        <Class IRI="#Email_Addr"/>
+        <Class IRI="#Email_Message"/>
+        <Class IRI="#File"/>
+        <Class IRI="#MIME_Part_Type"/>
+        <Class IRI="#Mutex"/>
+        <Class IRI="#Network_Traffic"/>
+        <Class IRI="#Process"/>
+        <Class IRI="#Software"/>
+        <Class IRI="#URL"/>
+        <Class IRI="#User-Account"/>
+        <Class IRI="#Windows_Registry_Key"/>
+        <Class IRI="#X509_Certificate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Address"/>
+        <Class IRI="#Attack"/>
+        <Class IRI="#Attack_Stages"/>
+        <Class IRI="#Malware"/>
+        <Class IRI="#Threat_Actor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Adversarial_Behaviors"/>
+        <Class IRI="#Course_of_Action"/>
+        <Class IRI="#Identity"/>
+        <Class IRI="#Indicator"/>
+        <Class IRI="#Observed_Data"/>
+        <Class IRI="#Report"/>
+        <Class IRI="#TTP"/>
+        <Class IRI="#Threat_Actor"/>
+        <Class IRI="#Vulnerability"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Africa"/>
+        <Class IRI="#America"/>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Australia"/>
+        <Class IRI="#Europe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attack"/>
+        <Class IRI="#Attack_Stages"/>
+        <Class IRI="#Malware"/>
+        <Class IRI="#Threat_Actor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attack"/>
+        <Class IRI="#Malware"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attack"/>
+        <Class IRI="#Threat_Actor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Attack_Pattern"/>
+        <Class IRI="#Malware"/>
+        <Class IRI="#Tool"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Campaign"/>
+        <Class IRI="#Intrusion_Set"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#China"/>
+        <Class IRI="#Iran"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#China"/>
+        <Class IRI="#Israel"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#China"/>
+        <Class IRI="#Palestine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Criminal"/>
+        <Class IRI="#Hacktivist"/>
+        <Class IRI="#Nationstate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Facebook"/>
+        <Class IRI="#LDAP"/>
+        <Class IRI="#NIS"/>
+        <Class IRI="#OpenID"/>
+        <Class IRI="#RADIUS"/>
+        <Class IRI="#Skype"/>
+        <Class IRI="#TACACS"/>
+        <Class IRI="#Twitter"/>
+        <Class IRI="#Unix_Account"/>
+        <Class IRI="#Windows_Domain"/>
+        <Class IRI="#Windows_Local"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#France"/>
+        <Class IRI="#Germany"/>
+        <Class IRI="#Russia"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Group"/>
+        <Class IRI="#Individual"/>
+        <Class IRI="#Organization"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HTTP_Request_Ext"/>
+        <Class IRI="#ICMP_Ext"/>
+        <Class IRI="#Socket_Ext"/>
+        <Class IRI="#TCP_Ext"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#IP_Address"/>
+        <Class IRI="#IPv4_Addr"/>
+        <Class IRI="#IPv6_Addr"/>
+        <Class IRI="#MAC_Addr"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Iran"/>
+        <Class IRI="#Israel"/>
+        <Class IRI="#Palestine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Malware"/>
+        <Class IRI="#Threat_Actor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Rootkit"/>
+        <Class IRI="#Trojan"/>
+        <Class IRI="#Virus"/>
+        <Class IRI="#Worm"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Windows_Process_Ext"/>
+        <Class IRI="#Windows_Service_Ext"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAttachment"/>
+        <ObjectProperty IRI="#isAttachedTo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAttackStage"/>
+        <ObjectProperty IRI="#isAttackStageOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCreator"/>
+        <ObjectProperty IRI="#isCreatorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <ObjectProperty IRI="#isContaining"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <ObjectProperty IRI="#isCreating"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isExecutedBy"/>
+        <ObjectProperty IRI="#isExecuting"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isImpersonatedBy"/>
+        <ObjectProperty IRI="#isImpersonating"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <ObjectProperty IRI="#isIncluding"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isIndicatedBy"/>
+        <ObjectProperty IRI="#isIndicating"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isMitigatedBy"/>
+        <ObjectProperty IRI="#isMitigating"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isTargetedBy"/>
+        <ObjectProperty IRI="#isTargeting"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isUsedBy"/>
+        <ObjectProperty IRI="#isUsing"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isCommunicatingWith"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAttachment"/>
+        <Class IRI="#Email_Message"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAttackStage"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack"/>
+            <Class IRI="#Attack_Pattern"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasChild"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParent"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAttachedTo"/>
+        <ObjectUnionOf>
+            <Class IRI="#File"/>
+            <Class IRI="#MIME_Part_Type"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAttackStageOf"/>
+        <Class IRI="#Attack_Stages"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAttributedTo"/>
+        <ObjectUnionOf>
+            <Class IRI="#Campaign"/>
+            <Class IRI="#Intrusion_Set"/>
+            <Class IRI="#Threat_Actor"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isBelongingTo"/>
+        <ObjectUnionOf>
+            <Class IRI="#IPv4_Addr"/>
+            <Class IRI="#IPv6_Addr"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <ObjectUnionOf>
+            <Class IRI="#Directory"/>
+            <Class IRI="#File"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isContaining"/>
+        <ObjectUnionOf>
+            <Class IRI="#Archive_Ext"/>
+            <Class IRI="#Directory"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isImpersonatedBy"/>
+        <Class IRI="#Identity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isImpersonating"/>
+        <Class IRI="#Threat_Actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIncluding"/>
+        <Class IRI="#Observed_Data"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndicatedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Campaign"/>
+            <Class IRI="#Intrusion_Set"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Threat_Actor"/>
+            <Class IRI="#Tool"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIndicating"/>
+        <Class IRI="#Indicator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMitigatedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Tool"/>
+            <Class IRI="#Vulnerability"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMitigating"/>
+        <Class IRI="#Course_of_Action"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isResolvingTo"/>
+        <Class IRI="#Domain_Name"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTargetedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#Identity"/>
+            <Class IRI="#Vulnerability"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTargeting"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Campaign"/>
+            <Class IRI="#Intrusion_Set"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Threat_Actor"/>
+            <Class IRI="#Tool"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUsedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Tool"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isUsing"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Campaign"/>
+            <Class IRI="#Intrusion_Set"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Threat_Actor"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isVariantOf"/>
+        <Class IRI="#Malware"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAttachment"/>
+        <ObjectUnionOf>
+            <Class IRI="#File"/>
+            <Class IRI="#MIME_Part_Type"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAttackStage"/>
+        <Class IRI="#Attack_Stages"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasChild"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIPAddress"/>
+        <Class IRI="#IP_Address"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasParent"/>
+        <Class IRI="#Process"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAttachedTo"/>
+        <Class IRI="#Email_Message"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAttackStageOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack"/>
+            <Class IRI="#Attack_Pattern"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAttributedTo"/>
+        <ObjectUnionOf>
+            <Class IRI="#Identity"/>
+            <Class IRI="#Intrusion_Set"/>
+            <Class IRI="#Threat_Actor"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isBelongingTo"/>
+        <Class IRI="#Autonomous_System"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCommunicatingWith"/>
+        <Class IRI="#Threat_Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCommunicatingWith"/>
+        <Class IRI="#C&amp;C_Server"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isContainedIn"/>
+        <ObjectUnionOf>
+            <Class IRI="#Archive_Ext"/>
+            <Class IRI="#Directory"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isContaining"/>
+        <ObjectUnionOf>
+            <Class IRI="#Directory"/>
+            <Class IRI="#File"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCreatedBy"/>
+        <Class IRI="#Malware"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCreating"/>
+        <Class IRI="#File"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isImpersonatedBy"/>
+        <Class IRI="#Threat_Actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isImpersonating"/>
+        <Class IRI="#Identity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <Class IRI="#Observed_Data"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIncluding"/>
+        <Class IRI="#Cyber_Observable_Objects"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndicatedBy"/>
+        <Class IRI="#Indicator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIndicating"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Campaign"/>
+            <Class IRI="#Intrusion_Set"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Threat_Actor"/>
+            <Class IRI="#Tool"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMitigatedBy"/>
+        <Class IRI="#Course_of_Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMitigating"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Tool"/>
+            <Class IRI="#Vulnerability"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isResolvingTo"/>
+        <ObjectUnionOf>
+            <Class IRI="#IPv4_Addr"/>
+            <Class IRI="#IPv6_Addr"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTargetedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Campaign"/>
+            <Class IRI="#Intrusion_Set"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Threat_Actor"/>
+            <Class IRI="#Tool"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTargeting"/>
+        <ObjectUnionOf>
+            <Class IRI="#Identity"/>
+            <Class IRI="#Vulnerability"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUsedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Campaign"/>
+            <Class IRI="#Intrusion_Set"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Threat_Actor"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isUsing"/>
+        <ObjectUnionOf>
+            <Class IRI="#Attack_Pattern"/>
+            <Class IRI="#Malware"/>
+            <Class IRI="#Tool"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isVariantOf"/>
+        <Class IRI="#Malware"/>
+    </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasToolName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
